@@ -7,9 +7,6 @@
     "build": "webpack --mode=production",
     "start": "node main.js"
   },
-  "engines": {
-    "node": ">= 12.20.0"
-  },
   "keywords": [],
   "author": "",
   "license": "MIT",

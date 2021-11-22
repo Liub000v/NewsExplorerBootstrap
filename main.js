@@ -4,6 +4,8 @@ const express = require('express');
 const server = express()
 const port = 3000
 
+app.set('port', process.env.PORT || 3000);
+
 server.use(express.static(path.join(__dirname, '/')));
 
 server.listen(port, function () {
