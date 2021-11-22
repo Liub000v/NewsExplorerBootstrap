@@ -1,0 +1,43 @@
+{
+  "name": "NewsExplorerBootstrap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "build": "webpack --mode=production",
+    "start": "node main.js"
+  },
+  "engines": {
+    "node": ">= 12.20.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^7.2.5",
+    "css-loader": "^6.5.1",
+    "exports-loader": "^0.6.4",
+    "html-loader": "^3.0.1",
+    "html-webpack-plugin": "^5.5.0",
+    "node-sass": "^6.0.1",
+    "postcss": "^8.3.11",
+    "postcss-loader": "^2.0.10",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.20.1",
+    "webpack": "^5.64.1",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.5.0",
+    "copy-webpack-plugin": "^10.0.0",
+    "file-loader": "^6.2.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "express": "^4.17.1",
+    "html-webpack-plugin": "^5.5.0",
+    "jquery": "^3.3.1",
+    "mini-css-extract-plugin": "^2.4.5",
+    "node-w3c-validator": "^2.0.1",
+    "path": "^0.12.7",
+    "popper.js": "^1.12.9"
+  }
+}
